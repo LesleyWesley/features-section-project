@@ -1,0 +1,39 @@
+/*===== BASE STYLES ==== */
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  background-color: #FAFAFA;
+  font-family: "Poppins", sans-serif;
+  padding: 50px 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.full-width{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+}
