@@ -13,7 +13,8 @@ body {
   width: 100%;
   background-color: #FAFAFA;
   font-family: "Poppins", sans-serif;
-  padding: 50px 0;
+  padding: 50px 0 5px 0;
+  margin: 0;
 }
 
 header {
@@ -35,5 +36,37 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 90%;
+  width: 80%;
+}
+
+h2 {
+  font-weight: 200;
+  color: #A3A5AE;
+  font-size: 1.6em;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 1.6em;
+  color: #4C4E61;
+  font-weight: 600;
+  margin: 5px 0 15px 0;
+}
+
+p {
+  color: #A3A5AE;
+  text-align: center;
+  margin: 7px 0 50px 0;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+.feature {
+  background-color: #FFF;
+  box-shadow: 0 20px 20px rgba(76, 78, 97, 0.15), 0 6px 6px rgba(76, 78, 97, 0.15);
+  padding: 15px 20px 60px 20px;
+  margin: 20px 0;
+  border-radius: 10px;
 }
