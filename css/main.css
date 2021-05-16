@@ -36,7 +36,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 80%;
+  width: 85%;
 }
 
 h2 {
@@ -44,6 +44,8 @@ h2 {
   color: #A3A5AE;
   font-size: 1.6em;
   margin-bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 h1 {
@@ -51,12 +53,15 @@ h1 {
   color: #4C4E61;
   font-weight: 600;
   margin: 5px 0 15px 0;
+  width: 100%;
+  text-align: center;
 }
 
 p {
   color: #A3A5AE;
   text-align: center;
   margin: 7px 0 50px 0;
+  line-height: 1.9em;
 }
 
 main {
@@ -66,7 +71,54 @@ main {
 .feature {
   background-color: #FFF;
   box-shadow: 0 20px 20px rgba(76, 78, 97, 0.15), 0 6px 6px rgba(76, 78, 97, 0.15);
-  padding: 15px 20px 60px 20px;
+  padding: 15px 20px 70px 20px;
   margin: 20px 0;
-  border-radius: 10px;
+  border-radius: 7px;
+  max-width: 350px;
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  color: #4C4E61;
+  margin: 10px 0 0 0;
+}
+
+.feature p {
+  text-align: left;
+  font-size: 1em;
+  line-height: 2em;
+  color: #A3A5AE;
+}
+
+.supervisor {
+  border-top: 5px solid #45D3D3;
+  background-image: url("../images/icon-supervisor.svg");
+  background-repeat: no-repeat;
+  background-position-y: 150px;
+  background-position-x: 225px;
+}
+
+.team-builder {
+  border-top: 5px solid #EA5353;
+  background-image: url("../images/icon-team-builder.svg");
+  background-repeat: no-repeat;
+  background-position-y: 150px;
+  background-position-x: 225px;
+}
+
+.karma {
+  border-top: 5px solid #FCAF4A;
+  background-image: url("../images/icon-karma.svg");
+  background-repeat: no-repeat;
+  background-position-y: 150px;
+  background-position-x: 225px;
+  margin-top: 40px;
+}
+
+.calculator {
+  border-top: 5px solid #549EF2;
+  background-image: url("../images/icon-calculator.svg");
+  background-repeat: no-repeat;
+  background-position-y: 150px;
+  background-position-x: 225px;
 }
