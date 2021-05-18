@@ -71,7 +71,7 @@ main {
 .feature {
   background-color: #FFF;
   box-shadow: 0 20px 20px rgba(76, 78, 97, 0.15), 0 6px 6px rgba(76, 78, 97, 0.15);
-  padding: 15px 20px 70px 20px;
+  padding: 25px;
   margin: 20px 0;
   border-radius: 7px;
   max-width: 350px;
@@ -80,7 +80,7 @@ main {
 .feature h3 {
   font-size: 1.5em;
   color: #4C4E61;
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 
 .feature p {
@@ -88,14 +88,21 @@ main {
   font-size: 1em;
   line-height: 2em;
   color: #A3A5AE;
+  margin-bottom: 30px;
 }
 
 .supervisor {
   border-top: 5px solid #45D3D3;
-  background-image: url("../images/icon-supervisor.svg");
-  background-repeat: no-repeat;
-  background-position-y: 150px;
-  background-position-x: 225px;
+}
+
+.image-holder {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ .image-holder img {
+  padding: 0;
 }
 
 .team-builder {
