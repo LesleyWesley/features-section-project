@@ -107,25 +107,13 @@ main {
 
 .team-builder {
   border-top: 5px solid #EA5353;
-  background-image: url("../images/icon-team-builder.svg");
-  background-repeat: no-repeat;
-  background-position-y: 150px;
-  background-position-x: 225px;
 }
 
 .karma {
   border-top: 5px solid #FCAF4A;
-  background-image: url("../images/icon-karma.svg");
-  background-repeat: no-repeat;
-  background-position-y: 150px;
-  background-position-x: 225px;
   margin-top: 40px;
 }
 
 .calculator {
   border-top: 5px solid #549EF2;
-  background-image: url("../images/icon-calculator.svg");
-  background-repeat: no-repeat;
-  background-position-y: 150px;
-  background-position-x: 225px;
 }
