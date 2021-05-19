@@ -13,7 +13,7 @@ body {
   width: 100%;
   background-color: #FAFAFA;
   font-family: "Poppins", sans-serif;
-  padding: 50px 0 5px 0;
+  padding: 25px 0 5px 0;
   margin: 0;
 }
 
@@ -71,10 +71,10 @@ main {
 .feature {
   background-color: #FFF;
   box-shadow: 0 20px 20px rgba(76, 78, 97, 0.15), 0 6px 6px rgba(76, 78, 97, 0.15);
-  padding: 25px;
+  padding: 30px;
   margin: 20px 0;
   border-radius: 7px;
-  max-width: 350px;
+  max-width: 300px;
 }
 
 .feature h3 {
@@ -116,4 +116,76 @@ main {
 
 .calculator {
   border-top: 5px solid #549EF2;
+}
+
+/*========================================
+
+      SMALL DESKTOP STYLINGS
+
+=========================================*/
+
+@media only screen and (min-width: 900px) {
+
+  .feature {
+    margin: 20px 150px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h1 {
+    font-size: 2.25em;
+    margin: 0;
+  }
+
+  header p {
+    width: 60%;
+    padding: 10px 0;
+  }
+
+  main .full-width {
+    flex-flow: nowrap;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .first-section,
+  .middle-section,
+  .last-section {
+    margin: 0 10px;
+  }
+
+  .feature {
+    margin: 0;
+  }
+
+  .karma {
+    margin-top: 20px;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+  header p {
+    width: 43%;
+  }
+
+  main .full-width {
+    width: 100%;
+  }
+
+  .first-section,
+  .middle-section,
+  .last-section {
+    margin: 0 20px;
+  }
+
+  .karma {
+    margin-top: 40px;
+  }
 }
