@@ -13,7 +13,7 @@ body {
   width: 100%;
   background-color: #FAFAFA;
   font-family: "Poppins", sans-serif;
-  padding: 25px 0 5px 0;
+  padding: 25px 0 0 0;
   margin: 0;
 }
 
@@ -39,7 +39,7 @@ main {
   width: 85%;
 }
 
-h2 {
+h1 {
   font-weight: 200;
   color: #A3A5AE;
   font-size: 1.6em;
@@ -48,7 +48,7 @@ h2 {
   text-align: center;
 }
 
-h1 {
+h2 {
   font-size: 1.6em;
   color: #4C4E61;
   font-weight: 600;
@@ -118,6 +118,11 @@ main {
   border-top: 5px solid #549EF2;
 }
 
+footer {
+  width: 100%;
+}
+
+
 /*========================================
 
       SMALL DESKTOP STYLINGS
@@ -129,15 +134,17 @@ main {
   .feature {
     margin: 20px 150px;
   }
+
+
 }
 
 @media only screen and (min-width: 1024px) {
 
-  h2 {
+  h1 {
     font-size: 2.25em;
   }
 
-  h1 {
+  h2 {
     font-size: 2.25em;
     margin: 0;
   }
